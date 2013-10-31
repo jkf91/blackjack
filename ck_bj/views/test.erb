@@ -1,0 +1,10 @@
+<!-- 
+<% %> Ruby code that doesn't need to be printed to HTML
+<%= %> Ruby code that should be printed out to HTML
+-->
+
+<% if user %>
+  <%= "Welcome," + user.name + "!" %>
+<% else %>
+  Welcome Guest!  <!-- this is HTML -->
+<% end %>
